@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "✨ re-starter",
+			"path": "."
+		},
+		{
+			"name": "📦 @re-starter/client",
+			"path": "packages/client"
+		},
+		{
+			"name": "📦 @re-starter/common",
+			"path": "packages/common"
+		},
+		{
+			"name": "📦 @re-starter/server",
+			"path": "packages/server"
+		}
+	],
+	"settings": {}
+}

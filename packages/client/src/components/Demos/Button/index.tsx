@@ -1,7 +1,7 @@
 import React, { FC, MouseEvent } from 'react';
 import PropTypes from 'prop-types';
 
-import { InferPropTypes } from '../../types';
+import { InferPropTypes } from '../../../types';
 
 const propTypes = {
   isSubmit: PropTypes.bool,
@@ -14,7 +14,7 @@ const defaultProps = {
 };
 
 type Props = InferPropTypes<typeof propTypes, typeof defaultProps> & {
-  onClick: (e: MouseEvent) => void,
+  onClick: (e: MouseEvent<HTMLButtonElement>) => void,
 };
 
 const Button: FC<Props> = ({ isSubmit, onClick, children }) => (
